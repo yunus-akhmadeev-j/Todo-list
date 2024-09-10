@@ -1,0 +1,19 @@
+#main>.container>.tasks{
+    display: flex;         
+}
+/* Отступы для столбцов */
+.backlog,
+.in-process,
+.done,
+.basket{
+    margin-right: 50px;
+    margin-top: 50px ;
+    
+}
+/* Настройка заголовков столбцов */
+h3{
+    border-style: hidden;
+    border-radius: 10px 10px 10px 10px ;
+    background-color: rgb(139, 71, 117);
+    margin-bottom: 50px;
+}

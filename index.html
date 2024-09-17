@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -7,18 +7,22 @@
     <title>Ахмадеев Юнус Ильдарович(task-list)</title>
     <!-- Подключение файла CSS -->
     
-    <link rel="stylesheet" href="connect_style.css">
+    <link rel="stylesheet" href="styles/connect_style.css">
     <style>
         html { overflow:  hidden; }        
     </style>
 
 </head>
 
-<body>
+<body class="task-list-web">
    <div id="main">
-    <div class="header">
-        <h1>Список задач</h1>
-    </div>
+    
+     <header class="header_main">
+        <div class="header">
+             <h1>Список задач</h1>
+         </div>
+     </header>
+            
     <div class="container">
         <div class="newtask-add-button">
             <form class="button-form">
@@ -69,6 +73,7 @@
         
     </div>
    </div>
+   <script src="src/main.js" type="module"></script>
 
 </body>
 

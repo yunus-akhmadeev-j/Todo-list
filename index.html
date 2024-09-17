@@ -1,28 +1,26 @@
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ахмадеев Юнус Ильдарович(task-list)</title>
+    <!-- убираем прокручивающее колесико -->
+    <style>
+        html { overflow:  hidden; }
+        
+        </style>
+    <title>Юнус Ахмадеев Ильдарович</title>
     <!-- Подключение файла CSS -->
     
-    <link rel="stylesheet" href="styles/connect_style.css">
-    <style>
-        html { overflow:  hidden; }        
-    </style>
+    <link rel="stylesheet" href="connect_style.css">
 
 </head>
 
-<body class="task-list-web">
+<body>
    <div id="main">
-    
-     <header class="header_main">
-        <div class="header">
-             <h1>Список задач</h1>
-         </div>
-     </header>
-            
+    <div class="header">
+        <h1>Список задач</h1>
+    </div>
     <div class="container">
         <div class="newtask-add-button">
             <form class="button-form">
@@ -73,7 +71,6 @@
         
     </div>
    </div>
-   <script src="src/main.js" type="module"></script>
 
 </body>
 

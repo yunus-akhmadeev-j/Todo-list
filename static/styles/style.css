@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+#main{
+    background-color: rgb(69, 77, 105);
+}
 /* Заголовок */
 .header h1{
     padding-left: 50px;
@@ -12,12 +15,10 @@
     background-color: rgb(218, 140, 112);
 }
 /* Заливка поля */
-#main{
-    background-color: rgb(69, 77, 105);
-}
+
 .container{
-    
-    padding-bottom: 400px;
+ 
+    padding-bottom: 500px;
     margin: 100px;
 }
 a{
